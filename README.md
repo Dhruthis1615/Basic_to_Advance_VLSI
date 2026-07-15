@@ -1,160 +1,31 @@
-# VLSI Task 1 – Digital Logic Gates and Combinational Circuits
+# Introduction
 
-This repository contains the implementation and simulation of fundamental digital logic gates and basic combinational circuits as part of the **VLSI Design Internship** at **Maincrafts Technology**.
+This repository documents my journey of learning **Very Large Scale Integration (VLSI) Design** from the fundamentals to advanced concepts through a series of **16 structured tasks**. Each task builds upon the previous one, helping me develop a strong foundation in digital design, CMOS circuits, RTL design, verification, and other core VLSI concepts.
 
-## 📌 Overview
+The purpose of this repository is to:
 
-This project introduces the fundamentals of digital logic design by implementing and verifying:
+- 📚 Document my learning journey from beginner to advanced VLSI concepts.
+- 🛠️ Showcase the practical tasks completed during my VLSI internship.
+- 📖 Maintain well-organized reports, circuit implementations, simulations, and observations.
+- 📈 Track my progress and serve as a reference for future VLSI projects and interviews.
 
-- Basic Logic Gates
-- Half Adder
-- Full Adder
-
-All circuits were designed and simulated using **CircuitVerse**, and their outputs were verified using truth tables.
-
----
-
-## 🎯 Objectives
-
-- Understand the fundamentals of VLSI technology.
-- Study the VLSI design flow.
-- Learn the operation of basic logic gates.
-- Verify logic gate functionality using truth tables.
-- Design and simulate Half Adder circuits.
-- Implement and verify Full Adder circuits.
+Each task directory contains the relevant theory, design files, simulation results, truth tables (where applicable), observations, and key takeaways. This repository will continue to grow as I complete all **16 tasks**, reflecting my progress and hands-on experience in VLSI design.
 
 ---
 
-## 🛠️ VLSI Design Flow
+## Repository Structure
 
 ```
-System Specification
-        ↓
-Architecture Design
-        ↓
-RTL Design
-        ↓
-Functional Verification
-        ↓
-Logic Synthesis
-        ↓
-Physical Design
-        ↓
-Timing Analysis
-        ↓
-Fabrication
-        ↓
-Testing & Validation
+Task-01/
+Task-02/
+Task-03/
+...
+Task-16/
 ```
 
----
-
-## 📂 Implemented Circuits
-
-### Basic Logic Gates
-
-- AND Gate
-- OR Gate
-- NOT Gate
-- NAND Gate
-- NOR Gate
-- XOR Gate
-
-Each implementation includes:
-
-- Circuit Diagram
-- Boolean Expression
-- Truth Table
-- Simulation Results
-- Observation
-
----
-
-### Half Adder
-
-The Half Adder performs the addition of two binary inputs.
-
-**Outputs**
-- Sum
-- Carry
-
-**Boolean Expressions**
-
-```
-Sum = A ⊕ B
-Carry = A · B
-```
-
----
-
-### Full Adder
-
-The Full Adder performs the addition of three binary inputs.
-
-**Inputs**
-- A
-- B
-- Carry In (Cin)
-
-**Outputs**
-- Sum
-- Carry Out (Cout)
-
-**Boolean Expressions**
-
-```
-Sum  = A ⊕ B ⊕ Cin
-Cout = (A · B) + (Cin · (A ⊕ B))
-```
-
----
-
-## 💻 Software Used
-
-- CircuitVerse
-
----
-
-## ✅ Results
-
-- Successfully designed and simulated all basic logic gates.
-- Verified the functionality using truth tables.
-- Successfully implemented Half Adder and Full Adder circuits.
-- Simulation outputs matched the expected theoretical results.
-
----
-
-## 🚀 Applications
-
-### Logic Gates
-- Digital electronic systems
-- Processors and microcontrollers
-- Control and decision-making circuits
-
-### Half Adder
-- Binary addition
-- Arithmetic circuits
-- Digital calculators
-
-### Full Adder
-- Multi-bit binary addition
-- Arithmetic Logic Units (ALUs)
-- CPUs and processors
-
----
-
-## 📖 References
-
-1. CircuitVerse Digital Logic Simulator
-2. Digital Electronics – M. Morris Mano
-3. Fundamentals of Digital Logic Design
-
----
-
-## 👩‍💻 Author
-
-**Dhruthi S**
-
-Department of Electronics and Communication Engineering (ECE)
-
-VLSI Design Internship – Maincrafts Technology
+Each folder contains:
+- 📄 Report
+- 🖥️ Circuit Designs / Simulations
+- 📊 Results
+- 📝 Observations
+- 📚 References
